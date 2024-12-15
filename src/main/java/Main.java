@@ -129,14 +129,80 @@ wielolinijkowy
 //        System.out.println(nowaLiczba1/33);
 
 
-        boolean sygnalizacja = true;
-        boolean zapory = false;
-        if (sygnalizacja && zapory){
-            System.out.println("Można jechać");
-        }
-        else {
-            System.out.println("Nie można jechać");
-        }
+//        boolean sygnalizacja = true;
+//        boolean zapory = false;
+//        if (sygnalizacja && zapory){
+//            System.out.println("Można jechać");
+//        }
+//        else {
+//            System.out.println("Nie można jechać");
+//        }
+
+//        for (int i =0; i <256; i++) {
+//            char znak = (char) i;
+//            System.out.println(i + " = " + znak);
+//        }
+
+//        int predkosc = 10;
+//        if (predkosc >=1 && predkosc <10){
+//            System.out.println("male ostrzezenie");
+//        }
+//        else if (predkosc >=10) {
+//            System.out.println("duze ostrzezenie");
+//        }
+
+//        int[] tablica = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//        for (int i = 0; i <= 10; i++) {
+//            System.out.println(tablica[i]);
+//        }
+
+//        int[] nowaTablica = new int[10];
+//        for (int i = 0; i <= 9; i++) {
+////            System.out.println(nowaTablica[1]);
+//        }
+//
+//        for (int i = 0; i <= 9; i++) {
+//            nowaTablica[i] = i + 21;
+//            System.out.println(nowaTablica[i]);
+//        }
+
+//        String[] tablicaDniTygodnia = {"poniedziałek", "wtorek", "sroda", "czwartek", "piatek", "sobota", "niedziela"};
+//        for (int i = 0; i < tablicaDniTygodnia.length; i++) {
+//            System.out.println(tablicaDniTygodnia[i]);
+//        }
+
+
+//13 - nested loops
+
+//        for (int i = 0; i < 10; i++) {
+//            for (int j = 0; j < 10; j++) {
+//                System.out.println("Dla i =  " + i + ", j = " + j);
+//                System.out.println("A zatem " + i + " * " + j + " to " + i * j);
+//            }
+//        }
+
+
+//        char operacja = ':';
+//        int a = 3, b = 9;
+//        switch (operacja) {
+//            case '+':
+//                System.out.println(a + b);
+//                break;
+//            case '-':
+//                System.out.println(a - b);
+//                break;
+//            case '*':
+//                System.out.println(a * b);
+//                break;
+//            case '/':
+//                System.out.println(a / b);
+//                break;
+//            default:
+//                System.out.println("Bledny znak lub wartosc.");
+//        }
+
+        public class
+
 
     }
 }
