@@ -200,9 +200,5 @@ wielolinijkowy
 //            default:
 //                System.out.println("Bledny znak lub wartosc.");
 //        }
-
-        public class
-
-
     }
 }
