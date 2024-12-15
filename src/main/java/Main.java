@@ -200,5 +200,84 @@ wielolinijkowy
 //            default:
 //                System.out.println("Bledny znak lub wartosc.");
 //        }
+//        Punkt p1 = new Punkt();
+//        System.out.println(p1.x);
+//        System.out.println(p1.y);
+//
+//        Punkt p2 = new Punkt();
+//        System.out.println(p2.x);
+//        System.out.println(p2.y);
+//
+//        p2.x = 4;
+//
+//        System.out.println(p2.x);
+//
+//        Punkt p1 = new Punkt();
+//        Punkt p2 = new Punkt();
+//        p1.wyswietlWspolrzedne();
+//        p2.wyswietlWspolrzedne();
+//
+//        Punkt p1 = new Punkt();
+//        int poleXObiektuP1 = p1.pobierzX();
+//        int poleYObiektuP1 = p1.pobierzY();
+//        System.out.println(poleXObiektuP1);
+//        System.out.println(poleYObiektuP1);
+//
+//        Punkt p2 = new Punkt();
+//
+//        p1.ustawX(5);
+//        System.out.println(p1.pobierzX());
+//
+//        p1.ustawY(7);
+//        System.out.println(p1.pobierzY());
+
+        Samochod audi = new Samochod();
+
+        audi.setIlosc_drzwi(5);
+        System.out.println("Ilosc drzwi: " + audi.getIlosc_drzwi());
+
+        audi.setModel("A5");
+        System.out.println(audi.getModel());
+
+        audi.setRok_produkcji(2015);
+        System.out.println(audi.getRok_produkcji());
+
+        audi.setV_max(230);
+        System.out.println(audi.getV_max());
+
+        boolean stan_samochodu = audi.rusz();
+        System.out.println(stan_samochodu);
+        stan_samochodu = audi.zatrzymajSie();
+
+        System.out.println(stan_samochodu);
+
+        Punkt.metodaStatyczna();
+        System.out.println(Punkt.poleStatyczne);
+
+        new Punkt();
+
+        Punkt3D punkt3D = new Punkt3D();
+        punkt3D.z = 3;
+        punkt3D.x = 5;
+        punkt3D.y = 7;
+        System.out.println(punkt3D.z);
+        System.out.println(punkt3D.x);
+        System.out.println(punkt3D.y);
+
+        Punkt punkt = new Punkt();
+
+        OverridenMethods on1 = new OverridenMethods();
+
+        on1.dodawaj(1,2);
+        on1.dodawaj(3,4,5);
+        on1.dodawaj(5,6,7,8);
+        on1.dodawaj(9,1,2,3,4);
+
+        System.out.println( on1.dodawaj(1,2));
+        System.out.println(on1.dodawaj(3,4,5));
+        System.out.println(on1.dodawaj(5,6,7,8));
+        System.out.println(on1.dodawaj(9,1,2,3,4));
+
+
     }
 }
